@@ -1,0 +1,57 @@
+/* main stuff */
+
+body { 
+  background-color: #000;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+#content {
+  width: 900px ;
+  margin-left: auto ;
+  margin-right: auto ; 
+  background-color: #880088;
+}
+
+#previous {
+float: left;
+width:50px;
+height:50px;
+background-color: #FFF;
+position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+
+
+    margin: auto;
+cursor:pointer;
+}
+
+#next {
+float:left;
+width:50px;
+height:50px;
+background-color: #FFF;
+position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0px;
+    margin: auto;
+cursor:pointer;
+}
+ 
+#pictured {
+ float:left;
+ width:0px auto;
+ background-color: #880088;
+ }
+ 
+ #pictured  img {
+ float:left;
+ margin-top:50px;
+ }
+
+
