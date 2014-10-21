@@ -46,7 +46,7 @@ cursor:pointer;
 #pictured {
  float:left;
  width:0px auto;
- background-color: #880088;
+ background-color: none;
  }
  
  #pictured  img {
