@@ -4,9 +4,14 @@ body {
   background-color: #000;
 }
 
+/*this defines everything*/
+
 * {
 	box-sizing:border-box;
 }
+
+
+/* this is the div ID of the content throughout the site*/
 
 #content {
   width: 900px ;
@@ -14,6 +19,7 @@ body {
   margin-right: auto ; 
   background-color: #880088;
 }
+/* this is the div ID of the button that you click to come to the previous HTML file*/
 
 #previous {
 float: left;
@@ -24,11 +30,11 @@ position: absolute;
     top:0;
     bottom: 0;
     left: 0;
-
-
     margin: auto;
 cursor:pointer;
 }
+
+/* this is the div ID of the button that you click to come to the next HTML file*/
 
 #next {
 float:left;
@@ -42,13 +48,14 @@ position: absolute;
     margin: auto;
 cursor:pointer;
 }
- 
+ /* this is the div ID of the place where the IMAGE is*/
 #pictured {
  float:left;
  width:0px auto;
  background-color: none;
  }
- 
+ /* this is the div ID of ONLY THE IMAGE */
+
  #pictured  img {
  float:left;
  margin-top:50px;
