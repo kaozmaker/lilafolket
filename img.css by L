@@ -1,0 +1,47 @@
+body{
+background:#444;
+height:100%;
+}
+
+html{
+height:100%
+}
+
+.img{
+position:absolute;
+background-position:center;
+background-size:cover;
+top:50px;
+bottom:50px;
+left:100px;
+right:100px;
+}
+
+.left, .right{
+position:absolute;
+text-align:center;
+font-size:40px;
+background:#000;
+color:#fff;
+height:50px;
+width:50px;
+right:20px;
+margin-top:-25px;
+top:50%;
+padding:5px;
+left:20px;
+}
+
+.left:hover, .right:hover{
+background-color:#fff;
+color:#000;
+}
+
+.right{
+left:auto;
+right:20px;
+}
+
+a {
+text-decoration:none;
+}
