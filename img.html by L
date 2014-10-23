@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>FuckerIMG</title>
+		<meta name="viewport" content="width-device-width"/>
+		<link rel="stylesheet" href="Homework_IMG.css"/>
+	</head>
+	
+	<body>
+			<a href="Homework_img3.html" class="left">&lt</a>
+			<div class="img" style="background-image:url(img/a.jpg)"></div>
+			<a href="Homework_img2.html" class="right">&gt</a>
+	</body>
+	
+</html>
